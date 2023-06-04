@@ -9,9 +9,40 @@
 
 <body>
    <div id="root">
+    <div>
+       <h1>
+        Add Book
+       </h1>
+ 
+       <label> Title of book </label>
+       <input id="title" type="text" maxlength="200" minlength="10"/>
+       <br/>
+       <label> quantity</label>
+       <input id="quantity" type="text" maxlength="200" minlength="10"/>
+       <br/>
+       <label> Year </label>
+       <input id="year" type="text" maxlength="200" minlength="10"/>
+       <br/>
+       <label> Description </label>
+       <input id="desc" type="text" maxlength="200" minlength="50"/>
+       <br/>
+       <label> ImageUrl </label>
+       <input id="imageUrl" type="text" maxlength="200" minlength="50"/>
+       <br/>
+       <button id="create"  onclick="createBook()">Create New Book</button>
+       </div>
+       <div class="container">
+        <h1 class="">Update Inventory</h1>
+        <div class="row book-container">
+        </div>
+    </div>
+
+      
        
    </div>
+
     <!-- Our JavaScript Code  -->
+    
     <script src="admin.js"></script>
 </body>
 
